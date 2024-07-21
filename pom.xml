@@ -80,12 +80,12 @@
         <docker.jib-maven-plugin.version>2.6.0</docker.jib-maven-plugin.version>
         <docker.image.prefix>springcommunity</docker.image.prefix>
 
-         <!-- jaco properites -->
+         <!-- jacoco properites -->
          <jacoco.version>0.8.6</jacoco.version>
          <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
          <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
          <sonar.jacoco.reportpath> ${project.basedir}/../target/jacoco.ecec </sonar.jacoco.reportpath>
-         <sonar.language>java</sonar.lanugage>
+         <sonar.language>java</sonar.language>
 
 
     </properties>
